@@ -2,6 +2,7 @@
 
 A chatroom server based on websocket
 
+**[README-CN.md](https://github.com/kingsznhone/Project-Ragnarok/blob/master/README-CN.md)**.
 
 &nbsp;
 ## System requirements 
