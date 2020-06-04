@@ -2,32 +2,30 @@
 
 A chatroom server based on websocket
 
-## License
 
-[The MIT License (MIT)](https://raw.githubusercontent.com/v2ray/v2ray-core/master/LICENSE)
-
+##
 ## System requirements 
 Python 3
 
-
+##
 ## Feature
 *  Websocket full duplex
 *  Asnyc structure
 *  Message broadcast 
 *  Point to point message exchange(under dev)
 *  
-
+##
 ## Initialization
 #### 1. Install websockets library
 ```shell 
 pip3 install websockets
 ```
-
+####
 #### 2. Generate SSL certificate (If needed)
 ```shell
 $ openssl req -newkey rsa:2048 -nodes -keyout key.pem -x509 -days 365 -out certificate.crt
 ```
-
+####
 #### 3. Mod Config.json
 ``` json
 {
@@ -48,13 +46,13 @@ $ openssl req -newkey rsa:2048 -nodes -keyout key.pem -x509 -days 365 -out certi
 * server_port: port to listen
 * server_name:A.K.A chatroom title
 * server_password#  Empty for public chatroom
-
+####
 #### 4. Start server 
 ``` shell
 $ python3 server.py
 ```
 
-
+##
 ## Message Structure
 This part of discription is for third-party client design
 
@@ -68,6 +66,7 @@ This part of discription is for third-party client design
 }
 ```
 
+####
 #### Broadcast message 
 msgType = "Broadcast"  is a message needs to broadcast to all online user
 
@@ -79,14 +78,16 @@ Client doesn't send "SrcUser" ,it will be assigned by server
 
 "Users" is empty for this type of message
 
-### Online users notification
+####
+#### Online users notification
 "msgType" = "OnlineUsers" 
 
 "Users" looks like ["john","smith"...]
 
 Client Unpack those value to update online user's name
 
-### Privatemessage (under dev)
+####
+#### Privatemessage (under dev)
 "msgType" = "PrivateMessage" 
 
 Client send "TgtUser" to server
@@ -97,3 +98,6 @@ Then "SrcUser" will be assigned by server
 
 So that server can not decrypt this message, only forward to "TgtUser"
 
+##
+## License
+[The MIT License (MIT)](https://raw.githubusercontent.com/v2ray/v2ray-core/master/LICENSE)
