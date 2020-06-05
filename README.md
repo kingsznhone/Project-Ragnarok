@@ -4,6 +4,34 @@ A chatroom server based on websocket
 
 **[README-CN.md](https://github.com/kingsznhone/Project-Ragnarok/blob/master/README-CN.md)**.
 
+ 
+
+## Ideology
+
+This project is based on my victimized delusion.
+
+Like what ***1984*** says "Big Brother is watching you."
+
+We are going to cyberpunk era.
+
+Whatever in Eastern or Western, We all the same
+
+We live in a world that Gov has in charge of every corner.
+
+Telegram can do the same thing, that's right. But out privacy. 
+
+It shouldn't be in any company or someone's hand.
+
+Maybe I can call this Project : Everyone TG.
+
+Cuz I want Everyone in Internet , have their own chatroom server, a safe house
+
+This project is ugly but it works, is minor but comfort.
+
+Share Your opinion in this tiny chatroom
+
+**click on Star if you're interested**
+
 &nbsp;
 ## System requirements 
 Python 3
