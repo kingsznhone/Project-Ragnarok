@@ -133,4 +133,4 @@ So that server can not decrypt this message, only forward to "TgtUser"
 
 ##
 ## License
-[The MIT License (MIT)](https://raw.githubusercontent.com/v2ray/v2ray-core/master/LICENSE)
+[The MIT License (MIT)](https://github.com/kingsznhone/Project-Ragnarok/blob/master/LICENSE)
