@@ -18,15 +18,17 @@ Whatever in Eastern or Western, We all the same
 
 We live in a world that Gov has in charge of every corner.
 
-Telegram can do the same thing, that's right. But out privacy. 
+Telegram can do the same thing, that's right. 
 
-It shouldn't be in any company or someone's hand.
+But our privacy. 
+
+Shouldn't be in any company or someone else's hand.
 
 Maybe I can call this Project : Everyone TG.
 
 Cuz I want Everyone in Internet , have their own chatroom server, a safe house
 
-This project is ugly but it works, is minor but comfort.
+This project is ugly but it works.
 
 Share Your opinion in this tiny chatroom
 
