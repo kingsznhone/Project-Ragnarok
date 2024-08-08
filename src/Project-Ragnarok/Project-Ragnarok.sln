@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Ragnarok", "Project-Ragnarok\Project-Ragnarok.csproj", "{C19C1B42-F47D-44B9-97BA-8ECDAF0C0EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Ragnarok.Core", "Project-Ragnarok.Core\Project-Ragnarok.Core.csproj", "{621BB8D0-8504-4BDE-8985-BE843D971555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19C1B42-F47D-44B9-97BA-8ECDAF0C0EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19C1B42-F47D-44B9-97BA-8ECDAF0C0EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19C1B42-F47D-44B9-97BA-8ECDAF0C0EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19C1B42-F47D-44B9-97BA-8ECDAF0C0EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621BB8D0-8504-4BDE-8985-BE843D971555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621BB8D0-8504-4BDE-8985-BE843D971555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621BB8D0-8504-4BDE-8985-BE843D971555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621BB8D0-8504-4BDE-8985-BE843D971555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDB007D0-A096-448B-9EBD-74BEA8899075}
+	EndGlobalSection
+EndGlobal
